@@ -1,0 +1,73 @@
+
+html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,
+dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {
+	margin:0;padding:0;
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+}
+* {box-sizing: border-box;}
+html, body{
+	width:100%;
+	/*scroll-behavior: smooth;스크롤 부드럽게*/
+}
+body{	
+	width:100%;
+	min-width:320px; -webkit-text-size-adjust:none;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:14px;
+	color:#666;   
+	word-wrap:break-word;word-break:break-all;
+} 
+
+body.overflow { overflow:hidden; }
+
+
+h1,h2,h3,h4,h5,h6 { font-weight:normal;}
+dl, ul, ol, li {list-style: none;}
+table {width:100%;/* border-collapse:collapse; */border-spacing: 0; table-layout:fixed;}
+address,cite,code,em{font-style:normal;font-weight:normal;}
+label,img,input,select,textarea,button{vertical-align:middle;}
+caption, th, td {text-align: left; font-weight: normal;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+textarea, input, select { font-size: 14px;}
+select{
+/*
+	-webkit-appearance:none; /* for chrome 셀렉트 기본 화살표 감추기  
+	-moz-appearance:none; /*for firefox 셀렉트 기본 화살표 감추기 
+	appearance:none;
+	*/
+ } 		
+ /* IE 10, 11의 셀렉트 네이티브 화살표 숨기기 
+select::-ms-expand {display: none;} 
+*/
+/* 달력에서 셀렉트 화살표 보이게 하기 */
+#ui-datepicker-div select{
+	-webkit-appearance:textarea;
+    -moz-appearance: textarea;
+    appearance: textarea;
+}
+
+
+/* ======= common style ========= */
+a{color:#000;text-decoration:none;}
+a:link,a:hover,a:active{text-decoration:none;} 
+
+.clearFix:after {clear:both;  content:""; display:block; visibility:hidden; }
+.hidden, legend, hr, caption {
+	/*position:absolute; width:0; height:0; line-height:0; font-size:0; visibility:hidden; text-indent:-9999em;*/
+	/*
+	display:block; overflow:hidden; position:absolute; border:0; width:1px; height:1px; clip:rect(1px, 1px, 1px, 1px);*/ /*접근성 화면 낭독기가 읽을 수 있도록 하는 css*/
+	visibility:hidden; overflow:hidden; width:0; height:0; font-size:0; line-height:0;	/*사파리에서 테이블 간격이 동일하게 나오는 현상 수정하는 css*/
+}
+.cb { clear:both;}
+.fl { float:left;}
+.fr { float:right;}
+.bg_none { background:none  }
+.br_none { border-right:none  }
+.block { display:block;}
+.inline_block{display:inline-block;}
+.dn { display:none;}  
+.select_style {display:inline-block; min-width:85px; position:relative; }
+ 

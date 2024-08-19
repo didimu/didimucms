@@ -1,0 +1,81 @@
+/* Layout */
+#wrap { position:relative; width:100%;  min-width:320px; /*max-width:1200px;*/ margin:0 auto;}
+#popup_wrap { position:relative; width:100%;  }
+#header { 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index:100;
+    background: #fff;
+    border-bottom:1px solid #eee;
+}
+#main_container { width:100%;  }
+#main_container .container_in { position:relative;  margin:133px auto 0; background:#fff; }/*메인*/
+#sub_container .container_in { position:relative; max-width:1200px; margin:0 auto; min-height:500px; }/*서브*/
+#sub_container #leftcolumn { width:15%; position:relative; float:left;  padding-bottom:50px; margin-right:0; }
+#sub_container #rightcolumn { width: 73%; float: left; padding-bottom: 40px; margin-left: 5%;}
+#footer {clear: both; padding-top:30px; border-top:1px solid #dcdcdc; }
+#play{float:left;display:inline;display:block;width:188px;margin-left:12px;margin-top:40px;}
+#quick{position:absolute; top:200px; right:calc(50% - 640px - 100px - 50px);z-index:10;}
+
+#content { display:inline;width:100%;  float:left; margin:0;  padding:0 0 0 0; }
+.content_in { clear:both; width:100%; /*font-size:12px;*/ color:#4a4a4a; text-align:justify; min-height:500px; padding-top:30px; }
+
+#subWrap {
+    margin-top:133px;
+}
+#sub_visual{height:150px;background:#f5f5f5;}
+
+.body_bg {position: fixed;  top: 0;  right: 0; background: rgba(0,0,0,0.7); width: 100%; z-index: 10;}
+
+.padding_inner{    
+    width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+    /*bordeR:1px solid orange;*/
+    position: relative;
+}
+
+/*************** SNB *******************/
+#snb_tit { width:180px; height:50px; top:0; left:0;background:#444444; }
+#snb_tit p { text-align:center; line-height:50px;color:#fff;font-size:18px;}
+#snb { position:relative; width:180px; }
+#snb ul { width:180px; margin:0 auto;border-bottom:1px solid #dfdfdf; }
+#snb li { }
+#snb li a { border-top:1px solid #dfdfdf; line-height:33px; display:block; overflow:hidden; white-space:nowrap; padding:0 0 0 10px; font-size:13px; color:#202020; }
+#snb li a:hover, #snb li a:active, #snb li a:focus,
+#snb li.current a { color:#000; font-weight:600; }
+
+#snb .dep3 { width:100%; padding:10px 0 10px 0;border-top:1px solid #dfdfdf;border-bottom:none !important;background:#f8f8f8; }
+#snb .dep3 li {border-top:none !important;border-bottom:none !important;}
+#snb .dep3 li a {border-top:none !important;border-bottom:none !important; line-height:22px; background:none; padding:0 0 0 20px; font-size:11px; color:#555;}
+#snb .dep3 li a:hover, #snb .dep3 li a:active, #snb .dep3 li a:focus,
+#snb .dep3 li.current a {border-top:none;color:#005aad; font-weight:600; }
+
+/*************** locaticon *******************/
+.location { position:relative;  border-bottom:2px solid #e5e5e5;}
+.location fieldset { position:relative; padding:15px 0;;}
+.location .location_tit { float:left; }
+.location .location_tit p { font-size:22px; font-weight:600; color:#262626; }
+.location .location_txt { float:right;}
+.location .location_txt p { text-align:right; color:#404040; }
+.location .location_txt .home {
+    display: inline-block;
+    width: 36px;
+    padding: 0;
+    text-indent: -999em;
+    color: transparent; 
+} 
+.location .location_txt span { position:relative;  padding: 0 12px;}
+.location .location_txt span:after {
+    content: '';
+    position: absolute;
+    top: 6px;
+   right: -4px; 
+    width: 5px;
+    height: 9px; 
+}
+.location .location_txt span:last-child:after {
+    background: none;
+}
