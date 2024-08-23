@@ -1,0 +1,72 @@
+.b_list { width:100%; border-top: 2px solid #8c8c8c; }
+.b_list th {text-align:center;border-bottom:1px solid #e5e5e5; padding:10px 0 10px 0; color:#000; 	background:#f5f5f5;}
+.b_list td {text-align:center; padding:10px 0 10px 0; border-bottom: 1px solid #e2e2e2;vertical-align:middle; color: #777;}
+.b_list td a.text { /*display: inline-block; */position: relative; color: #444; overflow: hidden; white-space: nowrap;  max-width: 90%;text-overflow: ellipsis; -ms-text-overflow: ellipsis;} 
+.b_list td a.text:hover { color:#00aae7; }
+.b_list td a.text:hover:before {display: block; content: '';	position: absolute; left:0; bottom:-3px;	width:100%; height: 1px;	background-color: #3db6ea;}
+.b_list td.txt_left {display: flex; text-align:left; padding-left:10px; letter-spacing:0px;  color: #444;}
+.b_list td.txt_left strong { vertical-align:top;}
+.b_list .notice { background:#FFF; color:#D12810; font-weight:bold; }
+.b_list .notice a { color:#D12810; }
+.b_list .r_none { border-right:none; }  
+.b_list input.w_txt{ border:1px solid #cecece; height:18px; padding:0 5px; }
+.b_list textarea.w_txt { border:1px solid #cecece; height:200px; width:95%; padding:0 5px; }
+.b_list input, .b_list select, .b_list img { vertical-align:initial; color:#666;  }
+.b_list select{ border:1px solid #cecece;}
+.b_list td.table_in { text-align:left; border:none; }
+.b_list td .teacher_photo { width:70px; height:90px;border:1px solid #c5c5c5;text-align:center;margin:0 auto; }
+.b_list td .teacher_photo img{ width:70px; height:90px;}
+.b_list  .part_list li{float:left;width:115px;line-height:16px;}
+
+
+
+.common-table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0;
+  }
+  
+  .common-table-header-column {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0;
+    font-size: 16px;
+    padding: 10px 5px;
+    font-weight: bold;
+  }
+  
+  .common-table-row:hover {
+    background-color: #eceaea;
+    cursor: pointer;
+  }
+  
+  .common-table-column {
+    padding: 10px 5px;
+  }
+
+  .post-view-wrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .post-view-go-list-btn {
+    border: 0;
+    padding: 10px;
+    background-color: #ffd9d9;
+  }
+  
+  .post-view-row {
+    margin: 10px 0;
+    display: flex;
+  }
+  
+  .post-view-row > label:first-child {
+    margin: 10px 0;
+    width: 30%;
+    font-weight: bold;
+  }
+  
+  .post-view-row > *:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+  }

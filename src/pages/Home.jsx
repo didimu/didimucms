@@ -4,6 +4,7 @@ import Slider from '../components/mainSection/Slider'
 import MainSection1 from '../components/mainSection/MainSection1'
 import MainSection2 from '../components/mainSection/MainSection2'
 import MainSection3 from '../components/mainSection/MainSection3'
+import PostMain from './board/PostMain'
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
        <MainSection1 />
        <MainSection2 />
        <MainSection3 />
+       
+       <PostMain />
       </MainContents>
     </>
   )

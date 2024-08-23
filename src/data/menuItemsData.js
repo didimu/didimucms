@@ -8,7 +8,7 @@
 
 export const menuItemsData = [ 
     {
-      title: '테니스',
+      title: '회사소개',
       url: '/intro',
       submenu: [
         {
@@ -26,7 +26,7 @@ export const menuItemsData = [
       ],
     },
     {
-      title: '선수소개',
+      title: '일정',
       url: '/port',
       submenu: [
         {
@@ -44,7 +44,7 @@ export const menuItemsData = [
       ],
     },
     {
-      title: '유튜브',
+      title: '새소식',
       url: '/youtube',
       submenu: [
         {
@@ -62,7 +62,7 @@ export const menuItemsData = [
       ],
     },
     {
-      title: '이미지',
+      title: '커뮤니티',
       url: '/movie',
       submenu: [
         {
