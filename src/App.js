@@ -9,8 +9,10 @@ import MoviePage from "./pages/MoviePage.jsx";
 import PortPage from "./pages/PortPage.jsx"; 
 import IntroPage from "./pages/IntroPage.jsx"; 
 import Unsplash from "./pages/Unsplash.jsx";    
-import PostView from "./pages/board/PostView.jsx";
-import PostMain from "./pages/board/PostMain.jsx";
+//import Signup from "./pages/member/Signup.jsx";
+//import PostView from "./pages/board/PostView.jsx";
+//import PostMain from "./pages/board/PostMain.jsx"; 
+
 
 const App = () => {
   return (
@@ -22,9 +24,12 @@ const App = () => {
         <Route path="/port" element={<PortPage />} />
         <Route path="/youtube" element={<YoutubePage />} /> 
         <Route path="/movie" element={<MoviePage />} /> 
-        <Route path="/unsplash" element={<Unsplash />} />  
-        <Route exact path='/postView/:no' component={PostView} />
-        <Route exact path='/' component={PostMain} />
+        <Route path="/unsplash" element={<Unsplash />} />   
+ 
+        
+        
+
+
       </Routes>
       <Footer  />
     </BrowserRouter>
@@ -32,3 +37,10 @@ const App = () => {
 };
 
 export default App;
+
+
+
+//<Route exact path='/postView/:no' component={PostView} />
+//<Route exact path='/' component={PostMain} />
+
+//<Route paht="/signup" element={<Signup />} />
