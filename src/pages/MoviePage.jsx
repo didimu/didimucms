@@ -9,6 +9,7 @@ const MoviePage = () => {
          <h1>number{itme}</h1>
          <button onClick={addItem}>add</button>
          <button onClick={minusItem}>minus</button>
+         <p>2024.08.28</p>
     </div>
   )
 }
