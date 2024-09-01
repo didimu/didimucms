@@ -11,6 +11,7 @@ const MoviePage = () => {
          <button onClick={minusItem}>minus</button>
          <p>2024.08.28</p>
          <p>2024.09.01</p>
+         <p>2024.09.01또 수저ㅗㅇ</p>
     </div>
   )
 }
