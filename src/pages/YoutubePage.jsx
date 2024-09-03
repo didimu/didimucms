@@ -8,7 +8,7 @@ const YoutubePage = () => {
 return (
   <SubContents>
       <PostList />
-      <div>ddddddddssss</div>
+      <div>ddddddddssssㄴㄴㄴㄴ</div>
   </SubContents>
 )
 }
