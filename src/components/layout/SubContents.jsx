@@ -3,7 +3,7 @@ import SubVisual from './SubVisual'
 import LeftColumn from './LeftColumn'
 import RightColumn from './RightColumn'
 
-const SubContents = ({ subContent }) => {
+const SubContents = (props) => {
   return (
     <>
       <div id="subWrap">
@@ -11,7 +11,7 @@ const SubContents = ({ subContent }) => {
         <div id="sub_container" role="sub">
             <div className="container_in">
                 <LeftColumn />
-                <RightColumn content={subContent} /> 
+                <RightColumn>{props.children}</RightColumn> 
             </div>
         </div>
       </div>
