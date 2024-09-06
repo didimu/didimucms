@@ -9,9 +9,9 @@ import MoviePage from "./pages/MoviePage.jsx";
 import PortPage from "./pages/PortPage.jsx"; 
 import IntroPage from "./pages/IntroPage.jsx"; 
 import Unsplash from "./pages/Unsplash.jsx";    
-//import Signup from "./pages/member/Signup.jsx";
-//import PostView from "./pages/board/PostView.jsx";
-//import PostMain from "./pages/board/PostMain.jsx"; 
+import Login from "./pages/member/Login.jsx";
+import Signup from "./pages/member/Signup.jsx";
+
 
 
 const App = () => {
@@ -25,7 +25,9 @@ const App = () => {
         <Route path="/youtube" element={<YoutubePage />} /> 
         <Route path="/movie" element={<MoviePage />} /> 
         <Route path="/unsplash" element={<Unsplash />} />   
- 
+
+        <Route path="/login" element={<Login />} />   
+        <Route path="/signup" element={<Signup />} /> 
         
         
 
